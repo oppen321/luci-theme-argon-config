@@ -54,7 +54,7 @@ return view.extend({
 		o.value('bing', _('Bing'));
 		o.value('unsplash', _('Unsplash'));
 		o.value('wallhaven', _('Wallhaven'));
-		o.default = 'bing';
+		o.default = 'none';
 		o.rmempty = false;
 
 		o = s.option(form.ListValue, 'mode', _('Theme mode'));
